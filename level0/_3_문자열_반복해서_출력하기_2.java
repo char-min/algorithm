@@ -2,17 +2,13 @@ package level0;
 
 import java.util.Scanner;
 
-public class _3_문자열_반복해서_출력하기 {
+public class _3_문자열_반복해서_출력하기_2 {
     public static void main(String[] args) {
         StopWatch.start();
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         int n = sc.nextInt();
-        StringBuilder sb = new StringBuilder();
-        for (int i=0; i<n; i++) {
-            sb.append(str);
-        }
-        System.out.println(sb);
+        System.out.println(str.repeat(n));
         StopWatch.end();
     }
 }
@@ -21,5 +17,5 @@ public class _3_문자열_반복해서_출력하기 {
 asdf
 100
 
-2587
+2619
  */

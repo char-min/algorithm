@@ -11,7 +11,7 @@ public class _10_문자열_겹쳐쓰기 {
 
     public static String solution(String my_string, String overwrite_string, int s) {
         StringBuilder sb = new StringBuilder();
-        sb.append(my_string.substring(0, s));
+        sb.append(my_string, 0, s);
         sb.append(overwrite_string);
         int suffixStartIdx = s + overwrite_string.length();
         if (my_string.length() >= suffixStartIdx) {

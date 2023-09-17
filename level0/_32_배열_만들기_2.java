@@ -28,6 +28,11 @@ import java.util.List;
 테스트 21 〉	통과 (0.20ms, 72.1MB)
 테스트 22 〉	통과 (0.16ms, 72.6MB)
  */
+/*
+- case
+입력값 〉 7, 55
+기댓값 〉 [50, 55]
+ */
 public class _32_배열_만들기_2 {
     public static void main(String[] args) {
         int l = 5;

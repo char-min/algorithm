@@ -5,12 +5,16 @@ import java.util.Arrays;
 public class _56_리스트_자르기 {
     public static void main(String[] args) {
         int n = 3;
-        int[] slicer = {1, 5, 2};
-        int[] num_list = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int[] slicer = {1, 900_000, 2};
+//        int[] num_list = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int[] num_list = new int[1000_000];
+        for (int i=0, j=1; i< num_list.length; i++) {
+            num_list[i] = j++;
+        }
         StopWatch.start();
         int[] answer = solution(n ,slicer, num_list);
-        StopWatch.end();
-        System.out.println(Arrays.toString(answer));
+        StopWatch.end(); //3
+//        System.out.println(Arrays.toString(answer));
     }
 
     public static int[] solution(int n, int[] slicer, int[] num_list) {

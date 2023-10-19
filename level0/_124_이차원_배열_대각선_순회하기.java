@@ -11,7 +11,7 @@ package level0;
 테스트 8 〉	통과 (0.03ms, 75.2MB)
 테스트 9 〉	통과 (0.02ms, 75.8MB)
  */
-public class _123_이차원_배열_대각선_순회하기 {
+public class _124_이차원_배열_대각선_순회하기 {
     public int solution(int[][] board, int k) {
         int answer = 0;
         for (int i=0; i<board.length; i++) {

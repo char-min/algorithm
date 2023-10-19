@@ -31,7 +31,7 @@ package level0;
 테스트 28 〉	통과 (0.34ms, 75.9MB)
 테스트 29 〉	통과 (0.46ms, 78.7MB)
  */
-public class _122_정사각형으로_만들기 {
+public class _123_정사각형으로_만들기 {
     public int[][] solution(int[][] arr) {
         int n = Math.max(arr.length, arr[0].length);
         int[][] answer = new int[n][n];

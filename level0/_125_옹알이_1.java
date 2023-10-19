@@ -1,6 +1,6 @@
 package level0;
 
-public class _124_옹알이_1 {
+public class _125_옹알이_1 {
     public static void main(String[] args) {
         String[] babbling = {"aya", "yee", "u", "maa", "wyeoo"};
         int answer = solution(babbling);
